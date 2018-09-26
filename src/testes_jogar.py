@@ -10,6 +10,7 @@ jogovelha.jogar(jogador, lin, col)
 jogo = jogovelha.tabuleiro()
 
 if len(jogo) != 3:
+
     erro = True
 else:
     for linha in range(0,3):
@@ -27,3 +28,4 @@ if erro:
     sys.exit(1)
 else:
     sys.exit(0)
+
